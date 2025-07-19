@@ -10,6 +10,10 @@ a = a - b
 
 print("After swapping: a =", a, ", b =", b)
 
+Output: Enter first number (a): 6
+Enter second number (b): 5
+After swapping: a = 5 , b = 6
+
 
 
 ## Check Whether a Number is Even or Odd
