@@ -1,6 +1,6 @@
 # Python-codes
 
-## Swap Two Numbers Without Using a Temporary Variable
+1 ## Swap Two Numbers Without Using a Temporary Variable
 a = int(input("Enter first number (a): "))
 b = int(input("Enter second number (b): "))
 
@@ -16,7 +16,7 @@ After swapping: a = 5 , b = 6
 
 
 
-## Check Whether a Number is Even or Odd
+2 ## Check Whether a Number is Even or Odd
 num = int(input("Enter a number: "))
 
 if num % 2 == 0:
@@ -24,8 +24,11 @@ if num % 2 == 0:
 else:
     print("Odd")
 
+Output: Enter a number:5
+        odd
 
-## Factorial Without Using Recursion
+
+3 ## Factorial Without Using Recursion
 def factorial(n):
     result = 1
     for i in range(2, n + 1):
@@ -35,8 +38,11 @@ def factorial(n):
 num = int(input("Enter a number: "))
 print("Factorial of", num, "is", factorial(num))
 
+Output: Enter a number: 8
+Factorial of 8 is 40320
 
-## Check if a Year is a Leap Year
+
+4 ## Check if a Year is a Leap Year
 year = int(input("Enter a year: "))
 
 if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
@@ -44,8 +50,11 @@ if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
 else:
     print(year, "is not a leap year")
 
+Output:Enter a year: 2000
+leap year
 
-## Find the Largest of Three Numbers
+
+5 ## Find the Largest of Three Numbers
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 c = int(input("Enter third number: "))
@@ -59,8 +68,13 @@ else:
 
 print("The largest number is", largest)
 
+output:Enter first number: 56
+Enter second number: 87
+Enter third number: 99
+The largest number is 99
 
-## Print Fibonacci Series up to n Terms
+
+6 ## Print Fibonacci Series up to n Terms
 def fibonacci(n):
     a, b = 0, 1
     for _ in range(n):
@@ -70,8 +84,12 @@ def fibonacci(n):
 terms = int(input("Enter number of terms: "))
 fibonacci(terms)
 
+output: Enter number of terms: 5
+0 1 1 2 3 Enter an integer: 8
+Number of digits: 1
 
-##  Count Number of Digits in an Integer
+
+7 ##  Count Number of Digits in an Integer
 def count_digits(n):
     n = abs(n)  # Handle negative numbers
     count = 0
@@ -83,7 +101,12 @@ def count_digits(n):
 num = int(input("Enter an integer: "))
 print("Number of digits:", count_digits(num))
 
-## Reverse a String Using a Loop
+output: Enter an integer: 8
+Number of digits: 1
+
+
+
+8 ## Reverse a String Using a Loop
 text = input("Enter a string: ")
 reversed_str = ""
 
@@ -92,8 +115,11 @@ for char in text:
 
 print("Reversed string:", reversed_str)
 
+output:output: Enter a string: teju
+Reversed string: ujet
 
-##Find the Sum of All Elements in a List
+
+9 ##Find the Sum of All Elements in a List
 numbers = list(map(int, input("Enter numbers separated by space: ").split()))
 total = 0
 
@@ -102,8 +128,11 @@ for num in numbers:
 
 print("Sum of elements:", total)
 
+output: Enter numbers separated by space: 4 5 6 7 
+Sum of elements: 22
 
-## Check if a Number is Prime
+
+10  ## Check if a Number is Prime
 def is_prime(n):
     if n <= 1:
         return False
@@ -118,7 +147,8 @@ if is_prime(num):
 else:
     print(num, "is not a prime number")
 
-
+output: Enter a number: 88
+88 is not a prime number
 
 
 
