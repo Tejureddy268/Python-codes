@@ -115,7 +115,7 @@ for char in text:
 
 print("Reversed string:", reversed_str)
 
-output:output: Enter a string: teju
+output:Enter a string: teju
 Reversed string: ujet
 
 
